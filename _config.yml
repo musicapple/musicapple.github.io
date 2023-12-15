@@ -111,25 +111,19 @@ author:
                      # 줄바꿈은 <br>로 굵은 글씨는 **글씨** 로 표기해주세요. 
   location         : "Republic of Korea"            # 지역 입니다. 
   email            : # 이메일 주소입니다. (links에서 작성할 수 있기 때문에 생략하였습니다.)
-  links:
+ links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: mailto:eona1301@email.com
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/eona1301"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/eona1301"
+    - label: "Instagram"                            # 표시되는 이름입니다.
+      icon: "fab fa-fw fa-instagram"                # fab fa-fw fa-{SNS NAME} 으로 해주세요.
+      url: "https://www.instagram.com/danghyeona/"  # 개인 SNS 계정 링크를 기재하면 됩니다.
 
 # Site Footer
 footer:
