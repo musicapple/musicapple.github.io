@@ -125,18 +125,20 @@ author:
       icon: "fab fa-fw fa-instagram"                # fab fa-fw fa-{SNS NAME} 으로 해주세요.
       url: "https://www.instagram.com/danghyeona/"  # 개인 SNS 계정 링크를 기재하면 됩니다.
 
-# Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:eona1301@email.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      # url:                                        # 이런식으로 url을 주석처리하면 노출되지 않습니다.
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/eona1301"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/eona1301"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -145,8 +147,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-
+      url: "https://www.instagram.com/danghyeona/"
 
 # Reading Files
 include:
